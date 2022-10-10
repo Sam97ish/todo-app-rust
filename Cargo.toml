@@ -1,0 +1,12 @@
+[package]
+name = "todo-app"
+version = "0.2.0"
+edition = "2021"
+authors = ["Sam97ish <h-ssom1997@hotmail.com>"]
+description = "A simple todo app that writes todos to a file and reads them to cli."
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.0.11", features = ["derive"] }
+serde_json = "1.0.86"
